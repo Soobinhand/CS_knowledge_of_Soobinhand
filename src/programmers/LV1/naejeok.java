@@ -11,14 +11,6 @@ public class naejeok {
         return sum;
     }
 
-    public static void main(String[] args){
-        naejeok b = new naejeok();
-        int[] a = {1, 2, 3, 4};
-        int[] c = {-3,-1,0,2};
-        System.out.println(b.solution(a,c));
-    }
-
-
 }
 
 
