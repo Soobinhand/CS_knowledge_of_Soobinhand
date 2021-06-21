@@ -9,8 +9,24 @@ public class wanjoomothan {
 
         Arrays.sort(participant);
         Arrays.sort(completion);
-
+        int i = 0;
+        while(i<completion.length){
+            if(!completion[i].equals(participant[i])){
+                temp = participant[i];
+                break;
+            }
+            else{
+                i++;
+            }
+        }
+        if(!temp.equals("")){
+            answer = temp;
+        }
+        else{
+            answer = participant[participant.length-1];
+        }
         return answer;
+
 
     }
 }
