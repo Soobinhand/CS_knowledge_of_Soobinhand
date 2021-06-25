@@ -7,6 +7,7 @@ public class Selection_Sort {
         selection_sort(a,a.length);
         return a;
     }
+
     public static void selection_sort(int[] a, int size){
         for(int i=0;i<size-1;i++){
             int min = i;
@@ -24,6 +25,9 @@ public class Selection_Sort {
         a[i] = a[j];
         a[j] = temp;
     }
+
+
+
     public static void main(String[] args){
         int[] q = {3,4,1,5,2};//여기다가 선택 정렬하고 싶은거 써넣자.
         System.out.println(Arrays.toString(selection_sort(q)));
