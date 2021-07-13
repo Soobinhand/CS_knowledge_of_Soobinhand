@@ -67,5 +67,12 @@ public class stack {
     public static void main(String[] args) {
         stack stack = new stack();
         stack.printstack();
+        stack.push('1');
+        stack.push('3');
+        stack.push('4');
+        stack.push('5');
+        stack.pop();
+        stack.printstack();
+        stack.peek();
     }
 }
