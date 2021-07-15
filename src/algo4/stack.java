@@ -1,6 +1,15 @@
 package algo4;
 
-public class stack {
+interface SS{
+    boolean isEmpty();
+    boolean isFull();
+    void push(char item);
+    char pop();
+    char peek();
+    void clear();
+}
+
+public class stack implements SS{
     public int top = -1;
     public int size = 10;
     public char[] arr = new char[size];
@@ -29,16 +38,18 @@ public class stack {
         }
         else{
             System.out.println(arr[top] + " 을(를) 삭제합니다.");
-            return arr[top--];
+            return arr[top--];//이걸 반환을 어디서 하는지...?
         }
     }
 
-    public void peek(){
+    public char peek(){
         if(isEmpty()){
             System.out.println("스택이 비었습니다.");
+            return 0;
         }
         else{
             System.out.println(arr[top] + " 이(가) 마지막으로 들어온 것입니다.");
+            return arr[top];
         }
     }
 
@@ -65,14 +76,12 @@ public class stack {
     }
 
     public static void main(String[] args) {
-        stack stack = new stack();
-        stack.printstack();
-        stack.push('1');
-        stack.push('3');
-        stack.push('4');
-        stack.push('5');
-        stack.pop();
-        stack.printstack();
-        stack.peek();
+        stack s = new stack();
+        s.push('a');
+        s.push('b');
+        s.pop();
+        s.printstack();
+        s.push('q');
+        s.printstack();
     }
 }
