@@ -9,7 +9,7 @@ interface SS{
     void clear();
 }
 
-public class stack implements SS{
+public class Stack implements SS{
     public int top = -1;
     public int size = 10;
     public char[] arr = new char[size];
@@ -76,7 +76,7 @@ public class stack implements SS{
     }
 
     public static void main(String[] args) {
-        stack s = new stack();
+        Stack s = new Stack();
         s.push('a');
         s.push('b');
         s.pop();

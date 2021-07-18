@@ -10,7 +10,7 @@ interface QQ{
 }
 
 
-public class queue implements QQ{
+public class Queue implements QQ{
     public int front;
     public int rear;
     public int size = 20;
@@ -96,7 +96,7 @@ public class queue implements QQ{
     }
 
     public static void main(String[] args) {
-        queue q = new queue();
+        Queue q = new Queue();
         q.enqueue('a');
         q.enqueue('b');
     }
