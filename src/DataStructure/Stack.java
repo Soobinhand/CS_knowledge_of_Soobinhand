@@ -1,4 +1,4 @@
-package algo4;
+package DataStructure;
 
 interface SS{
     boolean isEmpty();

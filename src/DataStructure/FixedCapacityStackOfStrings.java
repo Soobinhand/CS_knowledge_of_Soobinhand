@@ -1,4 +1,4 @@
-package algo4;
+package DataStructure;
 
 public class FixedCapacityStackOfStrings {
     private String[] a; //스택 항목

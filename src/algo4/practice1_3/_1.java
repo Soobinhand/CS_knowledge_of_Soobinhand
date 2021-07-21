@@ -1,6 +1,6 @@
 package algo4.practice1_3;
 
-import algo4.FixedCapacityStackOfStrings;
+import DataStructure.FixedCapacityStackOfStrings;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 

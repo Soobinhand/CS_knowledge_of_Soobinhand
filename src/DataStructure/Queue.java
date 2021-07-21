@@ -1,4 +1,4 @@
-package algo4;
+package DataStructure;
 
 interface QQ{
     boolean isEmpty();
