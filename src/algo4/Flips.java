@@ -1,4 +1,4 @@
-package DataStructure;
+package algo4;
 
 
 import java.io.BufferedReader;
