@@ -22,7 +22,7 @@ public class Queue implements QQ{
             front = -1;
             rear = -1;
         }
-        return (front==rear);
+        return (front==rear);//이러면 트루다.
     }
 
     @Override
@@ -91,6 +91,7 @@ public class Queue implements QQ{
             for(int i=front+1;i<=rear;i++){
                 System.out.print(arr[i]+" ");
             }
+            System.out.println("가 있습니다.");
             System.out.println();
         }
     }
@@ -99,6 +100,9 @@ public class Queue implements QQ{
         Queue q = new Queue();
         q.enqueue('a');
         q.enqueue('b');
+        q.printQueue();
+        q.dequeue();
+        q.printQueue();
     }
 }
 
