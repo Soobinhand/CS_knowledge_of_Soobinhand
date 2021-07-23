@@ -17,7 +17,7 @@ public class _1259 {
             }//arr[1,2,1]
 
             for(int i=0;i<n.length();i++){
-                arr2[i] = arr[n.length()-1-i];
+                arr2[i] = arr[n.length()-1-i];//거꾸로 하는 메서드
             }
 
             int count = 0;
