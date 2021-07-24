@@ -62,6 +62,102 @@ public class BST {
         }
     }
 
+    public boolean delete(int value){
+        boolean searched = false;
+        Node currParentNode = this.head;
+        Node currNode = this.head;
+
+        if(this.head==null){
+            return false;
+        }else{
+            if(this.head.value==value&&this.head.left==null&&this.head.right==null){
+                this.head = null;
+                return true;
+            }
+
+            while(currNode!=null){
+                if(currNode.value==value){
+                    searched = true;
+                    break;
+                }else if(value < currNode.value){
+                    currParentNode = currNode;
+                    currNode = currNode.left;
+                }else{
+                    currParentNode = currNode;
+                    currNode = currNode.right;
+                }
+            }
+            if(searched==false){
+                return false;
+            }
+        }
+        if(currNode.left==null&&currNode.right==null){
+            if(value<currParentNode.value){
+                currParentNode.left = null;
+                currNode = null;
+            }else{
+                currParentNode.right = null;
+                currNode = null;
+            }
+            return true;
+        }else if(currNode.left!=null&&currNode.right==null){
+            if(value < currParentNode.value){
+                currParentNode.left = currNode.left;
+                currNode = null;
+            }else{
+                currParentNode.right = currNode.left;
+                currNode= null;
+            }
+            return true;
+        }else if(currNode.left==null&&currNode.right!=null){
+            if(value<currParentNode.value){
+                currParentNode.left = currNode.right;
+                currNode = null;
+            }else{
+                currParentNode.right = currNode.right;
+                currNode = null;
+            }
+            return true;
+        }else{
+            if(value < currParentNode.value){
+                Node changeNode = currNode.right;
+                Node changeParentNode = currNode.right;
+
+                while(changeNode.left != null){
+                    changeParentNode = changeNode;
+                    changeNode= changeNode.left;
+                }
+                if(changeNode.right != null){
+                    changeParentNode.left = changeNode.right;
+                }else{
+                    changeParentNode.left = null;
+                }
+
+                currParentNode.left = changeNode;
+
+                changeNode.right = currNode.right;
+                changeNode.left = currNode.left;
+
+                currNode = null;
+            }else{
+                Node changeNode = currNode.right;
+                Node changeParentNode = currNode.right;
+                while(changeNode.left != null){
+                    changeParentNode = changeNode;
+                    changeNode= changeNode.left;
+                }
+
+                if(changeNode.right!=null){
+                    changeParentNode.left = changeNode.right;
+                }else{
+                    changeParentNode.left = null;
+                }
+
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         BST bst = new BST();
         bst.insertNode(2);
