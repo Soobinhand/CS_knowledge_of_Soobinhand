@@ -1,27 +1,30 @@
 package Algorithm;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Insertion_Sort {
-    public static int[] insertion_sort(int[] a){
-        insertion_sort(a,a.length);
-        return a;
-    }
-
-    private static void insertion_sort(int[] a,int size){
-        for(int i=1;i<size;i++){
-            int target = a[i];
-            int j = i-1;//target 이전 원소임
-            while(j>=0&&target<a[j]){//target 이전 원소까지
-                a[j+1] = a[j];//이전 원소를 한 칸씩 뒤로 옮김.
-                j--;
+    public ArrayList<Integer> list(ArrayList<Integer> dataList){
+        for(int i=0;i<dataList.size()-1;i++){
+            for(int j=i+1;j>0;j--){
+                if(dataList.get(j) < dataList.get(j-1)){
+                    Collections.swap(dataList,j,j-1);
+                }else{
+                    break;
+                }
             }
-
-            a[j+1] = target;
         }
+        return dataList;
     }
-    public static void main(String[] args){
-        int[] q = {6,7,5,3,0};
-        System.out.println(Arrays.toString(insertion_sort(q)));
+
+    public static void main(String[] args) {
+        ArrayList<Integer> tlist = new ArrayList<>();
+        for(int i=0;i<100;i++){
+            tlist.add((int)(Math.random()*100));
+        }
+        Insertion_Sort sort = new Insertion_Sort();
+        sort.list(tlist);
+        System.out.println(sort.list(tlist));
     }
 }
