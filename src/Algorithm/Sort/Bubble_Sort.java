@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Sort;
 
 
 import java.util.Arrays;
