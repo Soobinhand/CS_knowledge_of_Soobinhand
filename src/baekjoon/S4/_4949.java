@@ -1,28 +1,27 @@
+package baekjoon.S4;
+
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main{
+public class _4949 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s;
-        while (true){
+        while(true){
             s = sc.nextLine();
-
             if(s.equals("."))
                 break;
             System.out.println(solve(s));
         }
-
     }
     public static String solve(String s){
         Stack<Character> stack = new Stack<>();
-
         for(int i=0;i<s.length();i++){
             char c = s.charAt(i);
-            if(c=='(' || c == '['){
+            if(c=='('||c=='['){
                 stack.push(c);
             }
-            else if (c==')'){
+            else if(c==')'){
                 if(stack.empty() || stack.peek()!='('){
                     return "no";
                 }
@@ -41,7 +40,8 @@ public class Main{
         }
         if(stack.empty()){
             return "yes";
-        }else
+        }
+        else
             return "no";
     }
 }
