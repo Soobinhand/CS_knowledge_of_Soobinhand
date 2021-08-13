@@ -4,11 +4,13 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class _2805 {
+    static int a;
+    static int b;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        a = sc.nextInt();
 
-        int b = sc.nextInt();
+        b = sc.nextInt();
 
         int[] arr = new int[a];
 
