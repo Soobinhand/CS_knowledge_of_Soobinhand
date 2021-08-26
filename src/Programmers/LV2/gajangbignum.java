@@ -1,4 +1,4 @@
-package programmers.LV2;
+package Programmers.LV2;
 import java.util.*;
 public class gajangbignum {
     public String solution(int[] numbers){

@@ -1,6 +1,6 @@
-package programmers.LV1_impl;
+package Programmers.LV1_impl;
 
-import programmers.LV1.dookaebboba;
+import Programmers.LV1.dookaebboba;
 
 import java.util.Arrays;
 

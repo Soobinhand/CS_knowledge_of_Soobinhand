@@ -1,6 +1,6 @@
-package programmers.LV1_impl;
+package Programmers.LV1_impl;
 
-import programmers.LV1.soobaksoobak;
+import Programmers.LV1.soobaksoobak;
 
 public class soobaksoobak_impl {
     public static void main(String[] args){

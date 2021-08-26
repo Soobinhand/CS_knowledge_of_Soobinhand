@@ -1,4 +1,4 @@
-package programmers.LV1;
+package Programmers.LV1;
 
 public class eumyangplus {
     public int solution(int[] absolutes, boolean[] signs){

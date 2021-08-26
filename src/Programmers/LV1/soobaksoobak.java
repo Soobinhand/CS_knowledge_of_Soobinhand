@@ -1,4 +1,4 @@
-package programmers.LV1;
+package Programmers.LV1;
 
 public class soobaksoobak {
     public String solution(int n){

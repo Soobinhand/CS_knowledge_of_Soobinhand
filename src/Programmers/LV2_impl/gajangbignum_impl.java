@@ -1,6 +1,6 @@
-package programmers.LV2_impl;
+package Programmers.LV2_impl;
 
-import programmers.LV2.gajangbignum;
+import Programmers.LV2.gajangbignum;
 
 
 public class gajangbignum_impl {

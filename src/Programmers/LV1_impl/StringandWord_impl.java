@@ -1,6 +1,6 @@
-package programmers.LV1_impl;
+package Programmers.LV1_impl;
 
-import programmers.LV1.StringandWord;
+import Programmers.LV1.StringandWord;
 
 public class StringandWord_impl {
     public static void main(String[] args) {

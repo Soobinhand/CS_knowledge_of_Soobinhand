@@ -1,6 +1,6 @@
-package programmers.LV1_impl;
+package Programmers.LV1_impl;
 
-import programmers.LV1.ihatesamenumber;
+import Programmers.LV1.ihatesamenumber;
 
 import java.util.Arrays;
 

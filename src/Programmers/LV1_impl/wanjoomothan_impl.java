@@ -1,8 +1,6 @@
-package programmers.LV1_impl;
+package Programmers.LV1_impl;
 
-import programmers.LV1.wanjoomothan;
-
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import Programmers.LV1.wanjoomothan;
 
 public class wanjoomothan_impl {
     public static void main(String[] args){
