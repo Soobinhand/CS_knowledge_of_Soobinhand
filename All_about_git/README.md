@@ -1,6 +1,5 @@
-##IntelliJ에서 new remote repository 만들기
-####선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
-
+## IntelliJ에서 new remote repository 만들기
+#### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
 >1. Ctrl Shift A를 누른 후, share project on github을 검색
 >2. 로그인 or 로그인이 되어있음
 >3. 깃허브에 생성할 저장소 정보를 입력하는 화면이 나옴.
@@ -18,8 +17,8 @@
 
 ---
 
-##만약에 git remote repository 이름을 변경하고 싶다면?
-####선제조건) local 과 remote 가 이미 있어야 한다.
+## 만약에 git remote repository 이름을 변경하고 싶다면?
+#### 선제조건) local 과 remote 가 이미 있어야 한다.
 > 1. git remote repository 이름을 변경한다.
 > 2. local 로 들어온다.
 > 3. 기존 터미널에 git remote set-url origin "새 주소"를 입력한다.
@@ -27,6 +26,6 @@
 
 ---
 
-##Local 에서 git 인증 문제가 나온다면?
+## Local 에서 git 인증 문제가 나온다면?
 > 1. git remote set-url origin "깃 토큰 주소"를 입력한다.
 > 2. 끝
