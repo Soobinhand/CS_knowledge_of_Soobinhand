@@ -1,7 +1,7 @@
 - [IntelliJ에서 new remote repository 만들기](#intelliJ에서-new-remote-repository-만들기)
-- [만약에 git remote repository 이름을 변경하고 싶다면?](#a)
-- [Local 에서 git 인증 문제가 나온다면?](#b)
-- [gitignore 사용법](#c)
+- [만약에 git remote repository 이름을 변경하고 싶다면?](#-git-remote-repository---)
+- [Local 에서 git 인증 문제가 나온다면?](#local--git---)
+- [gitignore 사용법](#gitignore-)
 
 
 ## IntelliJ에서 new remote repository 만들기
@@ -23,7 +23,7 @@
 
 ---
 
-## a
+## 만약에 git remote repository 이름을 변경하고 싶다면?
 #### 선제조건) local 과 remote 가 이미 있어야 한다.
 > 1. git remote repository 이름을 변경한다.
 > 2. local 로 들어온다.
@@ -32,13 +32,13 @@
 
 ---
 
-## b
+## Local 에서 git 인증 문제가 나온다면?
 > 1. git remote set-url origin "깃 토큰 주소"를 입력한다.
 > 2. 끝
 
 ---
 
-## c
+## gitignore 사용법
 #### 선제조건) 프로젝트가 만들어져 있어야 한다.
 > 1. [Ctrl + Shift + A]를 누릅니다.
 > 2. `Action` 검색창을 열어 `plugins` 를 검색합니다.
