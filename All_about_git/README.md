@@ -1,3 +1,6 @@
+- ### [IntelliJ에서 new remote repository 만들기](#IntelliJ에서-new-remote-repository-만들기)
+
+
 ## IntelliJ에서 new remote repository 만들기
 #### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
 >1. Ctrl Shift A를 누른 후, share project on github을 검색
@@ -29,3 +32,22 @@
 ## Local 에서 git 인증 문제가 나온다면?
 > 1. git remote set-url origin "깃 토큰 주소"를 입력한다.
 > 2. 끝
+
+---
+
+## gitignore 사용법
+#### 선제조건) 프로젝트가 만들어져 있어야 한다.
+> 1. [Ctrl + Shift + A]를 누릅니다.
+> 2. `Action` 검색창을 열어 `plugins` 를 검색합니다.
+> 3. `Marketplace` 에서 `.ignore` 를 검색합니다.
+> 4. `Install` 합니다.
+> 5. 프로젝트에 마우스 우클릭을 하여 `new` 로 들어갑니다.
+> 6. `.ignore File` 의 `.gitignore File` 을 누릅니다.
+> 7. 설정 없이 `Generate` 를 누릅니다.
+> 8. 그 후 만들어진 `gitignore` 파일에 들어갑니다.
+> 9. 인텔리제이에서 자동으로 생성되는 파일들은 모두 이그노어 처리하면 됩니다.
+> > `.idea`, `.gradle` `*.docx`등등
+> 10. 그 후 이 파일도 깃허브에 `push` 해줍니다.
+
+---
+
