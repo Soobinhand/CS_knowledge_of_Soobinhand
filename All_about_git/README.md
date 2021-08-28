@@ -1,6 +1,6 @@
-- [IntelliJ에서 new remote repository 만들기](#intelliJ-new-remote-repository-)
-- [만약에 git remote repository 이름을 변경하고 싶다면?](#-git-remote-repository-)
-- [Local 에서 git 인증 문제가 나온다면?](#local-git-)
+- [IntelliJ에서 new remote repository 만들기](#intelliJ에서-new-remote-repository-만들기)
+- [만약에 git remote repository 이름을 변경하고 싶다면?](#만약에-git-remote-repository-이름을-변경하고-싶다면?)
+- [Local 에서 git 인증 문제가 나온다면?](#Local-에서-git-인증-문제가-나온다면?)
 - [gitignore 사용법](#gitignore-)
 
 
