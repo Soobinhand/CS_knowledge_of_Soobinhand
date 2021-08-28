@@ -6,19 +6,20 @@
 
 ## IntelliJ에서 new remote repository 만들기
 #### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
->1. Ctrl Shift A를 누른 후, share project on github을 검색
+>1. [Ctrl + Shift + A]를 누른 후, `share project on github` 을 검색
 >2. 로그인 or 로그인이 되어있음
 >3. 깃허브에 생성할 저장소 정보를 입력하는 화면이 나옴.
->4. 대부분 local과 remote저장소 이름을 같게 하니 같게 입력.
+>4. 대부분 local 과 remote 저장소 이름을 같게 하니 같게 입력.
 >5. 첫 번째 커밋을 위한 팝업창이 등장.
->6. .idea나 .gradle .build 등등은 선택하지 않고 나머지는 선택해서
-   커밋 메시지를 작성 후 OK버튼 클릭
+>6. `.idea` 나 `.gradle` `.build` 등등은 선택하지 않고 나머지는 선택해서
+   커밋 메시지를 작성 후 OK 버튼 클릭
 >7. 그럼 깃허브에 자동 생성이 되어있음.
->8. 만약 gitignore가 없다면 프로젝트를 우클릭한 후 new에 들어가
-   ignore file중 git ignore를 클릭하면 생성 화면이 나옴.
->9. generate 버튼을 누르면 gitignore파일이 생성됨. 거기다가 이제 추가하면 됨.
->10. Ctrl K 를 누르면 커밋 창이 뜸.
->11. Ctrl Shift K를 누르면 푸쉬 창이 뜸.
+>8. 만약 `gitignore` 가 없다면 프로젝트를 우클릭한 후 `new` 에 들어가
+   `ignore file` 중 git `ignore` 를 클릭하면 생성 화면이 나옴. 
+> (자세한 내용은 [여기](#gitignore-사용법))
+>9. `generate` 버튼을 누르면 `gitignore` 파일이 생성됨. 거기다가 이제 추가하면 됨.
+>10. [Ctrl + K] 를 누르면 커밋 창이 뜸.
+>11. [Ctrl + Shift + K]를 누르면 푸쉬 창이 뜸.
 >12. 끝
 
 ---
