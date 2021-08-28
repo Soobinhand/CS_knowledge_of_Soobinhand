@@ -1,10 +1,8 @@
-- [IntelliJ에서 new remote repository 만들기](#intellij---new-remote-repository----)
-   + [선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.](#-------local----------------------------)
-- [만약에 git remote repository 이름을 변경하고 싶다면?](#----git-remote-repository--------------)
-   + [선제조건) local 과 remote 가 이미 있어야 한다.](#------local---remote------------)
-- [Local 에서 git 인증 문제가 나온다면?](#local----git-------------)
-- [gitignore 사용법](#gitignore----)
-   + [선제조건) 프로젝트가 만들어져 있어야 한다.](#-----------------------)
+- [IntelliJ에서 new remote repository 만들기](#intelliJ-new-remote-repository-)
+- [만약에 git remote repository 이름을 변경하고 싶다면?](#-git-remote-repository-)
+- [Local 에서 git 인증 문제가 나온다면?](#local-git-)
+- [gitignore 사용법](#gitignore-)
+
 
 ## IntelliJ에서 new remote repository 만들기
 #### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
