@@ -1,8 +1,10 @@
-- [IntelliJ에서 new remote repository 만들기](#intelliJ에서-new-remote-repository-만들기)
-- [만약에 git remote repository 이름을 변경하고 싶다면?](#만약에-git-remote-repository-이름을-변경하고-싶다면?)
-- [Local 에서 git 인증 문제가 나온다면?](#local-에서-git-인증-문제가-나온다면?)
-- [gitignore 사용법](#gitignore-사용법)
-
+- [IntelliJ에서 new remote repository 만들기](#intellij---new-remote-repository----)
+   + [선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.](#-------local----------------------------)
+- [만약에 git remote repository 이름을 변경하고 싶다면?](#----git-remote-repository--------------)
+   + [선제조건) local 과 remote 가 이미 있어야 한다.](#------local---remote------------)
+- [Local 에서 git 인증 문제가 나온다면?](#local----git-------------)
+- [gitignore 사용법](#gitignore----)
+   + [선제조건) 프로젝트가 만들어져 있어야 한다.](#-----------------------)
 
 ## IntelliJ에서 new remote repository 만들기
 #### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
@@ -51,6 +53,7 @@
 > 9. 인텔리제이에서 자동으로 생성되는 파일들은 모두 이그노어 처리하면 됩니다.
 > > `.idea`, `.gradle` `*.docx`등등
 > 10. 그 후 이 파일도 깃허브에 `push` 해줍니다.
+> 11. 끝
 
 ---
 
