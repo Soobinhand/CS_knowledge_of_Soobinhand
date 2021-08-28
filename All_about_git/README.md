@@ -23,7 +23,7 @@
 >11. [Ctrl + Shift + K]를 누르면 푸쉬 창이 뜸.
 >12. 끝
 
----
+<br>
 
 ## 만약에 git remote repository 이름을 변경하고 싶다면?
 > - #### 선제조건) local 과 remote 가 이미 있어야 한다.
@@ -32,13 +32,13 @@
 > 3. 기존 터미널에 git remote set-url origin "새 주소"를 입력한다.
 > 4. 끝
 
----
+<br>
 
 ## Local 에서 git 인증 문제가 나온다면?
 > 1. git remote set-url origin "깃 토큰 주소"를 입력한다.
 > 2. 끝
 
----
+<br>
 
 ## gitignore 사용법
 > - #### 선제조건) 프로젝트가 만들어져 있어야 한다.
@@ -55,5 +55,5 @@
 > 10. 그 후 이 파일도 깃허브에 `push` 해줍니다.
 > 11. 끝
 
----
+<br>
 
