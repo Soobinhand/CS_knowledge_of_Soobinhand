@@ -4,6 +4,7 @@
 - [Local 에서 git 인증 문제가 나온다면?](#local-에서-git-인증-문제가-나온다면)
 - [gitignore 사용법](#gitignore-사용법)
 
+<br>
 
 ## IntelliJ에서 new remote repository 만들기
 >- #### 선제 조건) local 에서 이미 프로젝트를 하나 새로 만들어 놓은 상태.
