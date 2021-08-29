@@ -1,9 +1,9 @@
 # 목차
-- [Springboot + Kotlin + Gradle 로 개발환경 셋팅하기](#Springboot--Kotlin--Gradle-로-개발환경-셋팅하기)
+- [Springboot + Kotlin + Gradle 로 개발환경 셋팅하기](#springboot--kotlin--gradle-로-개발환경-셋팅하기)
 
 <br>
 
-##Springboot + Kotlin + Gradle 로 개발환경 셋팅하기
+## Springboot + Kotlin + Gradle 로 개발환경 셋팅하기
 > - 선제조건) IntelliJ 용
 > 1. `[New Project]` 를 선택합니다.
 > 2. `SpringInitializr` 를 선택합니다.
