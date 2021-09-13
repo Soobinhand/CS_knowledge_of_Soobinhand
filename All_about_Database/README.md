@@ -1,13 +1,14 @@
 # 목차
-- [DataBase](#database)
+- [Database](#database)
 - [DBMS](#dbms)
 - [DBMS 와 File System](#dbms-와-file-system)
 
 <br>
 
-## DataBase
-> - 다양한 사람이 공유하여 사용할 목적으로 체계화해 통합, 관리하는 **데이터의 집합**입니다.
-> - 데이터베이스는 아주 클 수도 있습니다.
+## Database
+> - 정의 
+>    - 다양한 사람이 공유하여 사용할 목적으로 체계화해 통합, 관리하는 **데이터의 집합**입니다.
+>    - 데이터베이스는 아주 클 수도 있습니다.
 
 <br>
 
