@@ -1,6 +1,6 @@
 # 목차
 - [Node JS](#node-js)
-- [Node JS 개발환경 셋팅하기](#node-js-개발환경-셋팅하기)
+- [Node JS 개발환경 셋팅하기](#node-js--)
 
 <br>
 

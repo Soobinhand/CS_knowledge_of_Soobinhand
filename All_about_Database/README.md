@@ -1,7 +1,7 @@
 # 목차
 - [Database](#database)
 - [DBMS](#dbms)
-- [DBMS 와 File System](#dbms-와-file-system)
+- [DBMS 와 File System](#dbms--file-system)
 - [관계형 데이터베이스](#관계형-데이터베이스)
 
 <br>

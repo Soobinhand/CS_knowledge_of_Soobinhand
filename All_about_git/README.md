@@ -1,9 +1,9 @@
 # 목차
 - [git](#git)
-- [IntelliJ에서 new remote repository 만들기](#intellij에서-new-remote-repository-만들기)
-- [만약에 git remote repository 이름을 변경하고 싶다면?](#만약에-git-remote-repository-이름을-변경하고-싶다면)
-- [Local 에서 git 인증 문제가 나온다면?](#local-에서-git-인증-문제가-나온다면)
-- [gitignore 사용법](#gitignore-사용법)
+- [IntelliJ에서 new remote repository 만들기](#intellij-new-remote-repository-)
+- [만약에 git remote repository 이름을 변경하고 싶다면?](#-git-remote-repository---)
+- [Local 에서 git 인증 문제가 나온다면?](#local--git---)
+- [gitignore 사용법](#gitignore-)
 
 <br>
 
@@ -29,7 +29,7 @@
 > #### 6. `.idea` 나 `.gradle` `.build` 등등은 선택하지 않고 나머지는 선택해서 커밋 메시지를 작성 후 OK 버튼 클릭
 > #### 7. 그럼 깃허브에 자동 생성이 되어있음.
 > #### 8. 만약 `gitignore` 가 없다면 프로젝트를 우클릭한 후 `new` 에 들어가 `ignore file` 중 git `ignore` 를 클릭하면 생성 화면이 나옴.
-> (자세한 내용은 [여기](#gitignore-사용법))
+> (자세한 내용은 [여기](#gitignore-))
 > #### 9. `generate` 버튼을 누르면 `gitignore` 파일이 생성됨. 거기다가 이제 추가하면 됨.
 > #### 10. [Ctrl + K] 를 누르면 커밋 창이 뜸.
 > #### 11. [Ctrl + Shift + K]를 누르면 푸쉬 창이 뜸.
