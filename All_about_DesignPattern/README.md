@@ -1,5 +1,8 @@
 # 목차
 - [DesignPattern](#designpattern)
+- [디자인 패턴 분류](#디자인-패턴-분류)
+- [SOLID 원칙](#solid-원칙)
+- [Strategy Pattern](#strategy-pattern)
 
 <br>
 
