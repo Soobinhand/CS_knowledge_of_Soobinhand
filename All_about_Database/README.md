@@ -3,6 +3,8 @@
 - [DBMS](#dbms)
 - [DBMS 와 File System](#dbms--file-system)
 - [관계형 데이터베이스](#관계형-데이터베이스)
+- [Keys](#keys)
+- [관계대수](#관계대수)
 
 <br>
 
@@ -101,3 +103,38 @@
 >   - Union(합집합)
 >   - Intersection(교집합)
 >   - Set Difference(차집합)
+> - #### Selection(선택 연산)
+>   - 선택 조건을 만족하는 relation 의 tuples 를 출력합니다.
+>   - condition : `salary > $85,000`
+>   - relation : 해당 relation
+>   - salary 가 85,000 달러 이상인 튜플들만 반환합니다.
+>   - and/or 연산자 사용가능
+> - #### Projection(추출 연산)
+>   - relation 에서 선택된 attributes 를 출력합니다.
+>   - attribute-list : `salary`
+>   - relation : 해당 relation
+>   - 속성이 salary 인 튜플들만 반환합니다.
+> - #### Natural Join(자연 조인)
+>   - 같은 이름을 가지고 있는 attributes 에서 두 relations 이 같은 값을 가지고 있는 tuples 의 쌍을 출력합니다.
+>   - relation1 과 relation2 가 필요함.
+>   - 두 relation 에서 속성 이름 같은 것만 보고, 그 안에 tuple 까지 같은 것만 추출합니다.
+>   - 새로운 relation 이 만들어집니다.
+>   - ##### 자연 조인 중 같은 속성이 없다면...
+>       - 이런 경우, 두 relation 을 카티션 곱해줍니다.
+> - #### Cartesian product(카티션 곱)
+>   - 두 relation 부터 가능한 모든 tuple 의 쌍을 출력합니다.
+>   - 굳이 속성 이름이 같은 것이 있지 않아도 됩니다.
+>   - ##### 카티션 프로덕트 중 attribute 가 같다면..
+>       - 예를 들어 r1, r2의 `B`속성이 같다고 가정합니다.
+>       - 새로 만들어지는 r3에는 `B`만 쓰지 않고, `r1B`,`r2B` 로 나눠서 써줍니다.
+> - #### Union(합집합)
+>   - 두 relation 의 tuple 에 대해서 합집합을 수행합니다.
+>   - r1에 있는 모든 tuple 을 반환하고, r2에선 중복되지 않은 것만 반환합니다.
+> - #### intersection(교집합)
+>   - r1, r2가 둘 다 가진 것만 반환합니다.
+> - #### Set difference(차집합)
+>   - 같은 것이 있다면 없애고, 좌에만 존재하는 건 적어줍니다.
+> - #### 집합들에서 속성이 서로 다른게 있다면..
+>   - 집합에선 두 릴레이션의 속성이 무조건 같아야 합니다.
+>   - 두개의 속성이 아주 같아야지만 set 연산이 가능합니다.
+>   
