@@ -152,3 +152,33 @@
 >   - numeric(d,p) : 소숫점을 나타낼 수 있습니다.
 >       - numeric(7,3) : 0000.000
 >   - real, double : 실수를 나타냅니다.
+> - #### SQL 식 종류
+>   - create table
+>   - drop table 
+>   - alter table 
+>   - select
+>   - from
+>   - where
+>   - distinct
+>   - natural join
+>   - as
+>   - like(%,_)
+>   - order by(desc, asc)
+>   - between
+>   - union(all)
+>   - intersect
+>   - except
+>   - is null
+>   - avg, sum, min, max, count
+>   - group by
+>   - having
+>   - in/not in
+>   - some/all
+>   - exists/not exists
+>   - delete from
+>   - insert into
+>   - update set
+
+<br>
+
+## CREATE TABLE
