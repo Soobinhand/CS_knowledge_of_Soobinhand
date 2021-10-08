@@ -182,3 +182,11 @@
 <br>
 
 ## CREATE TABLE
+> - 테이블을 만들 때 사용됩니다.
+> - create table relation (A1 D1, A2 D2);
+> - A1 은 속성, D1 은 데이터 타입을 의미합니다.
+
+<br>
+
+## DROP TABLE
+> - 테이블을 삭제할 때 사용됩니다.
