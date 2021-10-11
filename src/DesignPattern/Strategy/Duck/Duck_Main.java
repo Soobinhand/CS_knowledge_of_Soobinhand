@@ -6,6 +6,7 @@ public class Duck_Main {
         MallardDuck d2 = new MallardDuck();
         RedheadDuck d3 = new RedheadDuck();
         RubberDuck d4 = new RubberDuck();
+        d1.setQuackable(new Quack());
         d1.display();
         d2.display();
         d3.display();
