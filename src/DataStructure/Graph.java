@@ -19,8 +19,8 @@ public class Graph {
             node[u][v]  = 1;
 
         }
-        for (int i=0;i<node.length;i++){
-            for (int j=0;j<node[0].length;j++){
+        for (int i=0;i<vertex;i++){
+            for (int j=0;j<vertex;j++){
                 if (node[i][j]==1){
                     System.out.println(i+" "+j);
                 }
